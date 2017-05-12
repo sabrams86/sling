@@ -1,5 +1,5 @@
 defmodule Sling.UserController do
-  user Sling.Web, :controller
+  use Sling.Web, :controller
 
   alias Sling.User
 
